@@ -5,11 +5,11 @@
 |Name           | Description                          |
 |---------------|--------------------------------------|
 |date		      	|The date I refuel the car             |
-|kmsTotales	  	|Total of kilometers done with my car  |
-|eurosLitro	  	|The price of 1L of gasoline (in €uros)|
+|totKm    	  	|Total of kilometers done with my car  |
+|eLiter   	  	|The price of 1L of gasoline (in €uros)|
 |euros		    	|Final price of the refuel             |
-|litros	    		|The number of liters                  |
-|kmsRecorridos	|Kilometers done from previous refuel  |
+|liters	    		|The number of liters                  |
+|km           	|Kilometers done from previous refuel  |
 
 ###### (gdata.csv file)
 
