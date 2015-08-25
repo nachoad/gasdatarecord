@@ -1,20 +1,21 @@
 # Gas Data Record
-### A data record of each time I refuel the gasoline of my car
+### A data record of each time I fill up the gasoline of my car
 ##### The data I usually note are:
 
 |Name           | Description                          |
 |---------------|--------------------------------------|
-|date			|The date I refuel the car             |
-|kmsTotales		|Total of kilometers done with my car  |
-|eurosLitro		|The price of 1L of gasoline (in €uros)|
-|euros			|Final price of the refuel             |
-|litros			|The number of liters                  |
-|kmsRecorridos	|Kilometers done from previous refuel  |
+|date		      	|The date I refuel the car             |
+|totKm    	  	|Total of kilometers done with my car  |
+|eLiter   	  	|The price of 1L of gasoline (in â‚¬uros)|
+|euros		    	|Final price of the refuel             |
+|liters	    		|The number of liters                  |
+|km           	|Kilometers done from previous refuel  |
 
 ###### (gdata.csv file)
 
 ### Some R data from this data:
 
+<<<<<<< HEAD
      eLiter          euros      
  Min.   :1.109   Min.   :28.13  
  1st Qu.:1.301   1st Qu.:43.90  
@@ -32,3 +33,6 @@
  Max.   :38.78   Max.   :2442.0 
  
  
+=======
+###### Under construction.
+>>>>>>> origin/master
