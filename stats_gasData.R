@@ -15,6 +15,4 @@ summary (gdata)
 
 
 library(ggplot2)
-eLiter <- factor(gdata$eLiter, 
-eurosLitrogdata$eurosLitro, x = gdata$date)
-
+hist(gdata$eLiter)
