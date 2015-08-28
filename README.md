@@ -25,5 +25,7 @@
 | Max.   :1.549  | Max.   :56.66  | Max.   :38.78 |  Max.   :2442.0  |
 
   
+### Charts
 
-
+#### Euros by liter for each year
+![ebyliter](https://raw.githubusercontent.com/nachoad/gasdatarecord/master/imgs/euros_by_liter_trend.png)
