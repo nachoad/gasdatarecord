@@ -11,6 +11,7 @@
 # libraries:
 library(ggplot2)
 library(scales)
+library(reshape2)
 
 # Take data from local CSV file:
 gdata <- read.csv("gdata.csv")
@@ -52,4 +53,22 @@ ggplot(d.tot.km, aes(xdate, ytotKm)) +
       geom_point(size=3, colour="#339966")+
       xlab("Date") + 
       ylab("Total kilometers")
+dev.off()
+
+################################# testing.....
+## Kms driven ##
+png("./imgs/kms_driven.png", width = 800, height = 480, units = "px")
+# x_date <- as.Date(gdata$date, format = "%d-%m-%Y")
+EYear <- as.numeric(format(x_date, "%Y"))
+EMonth <- as.numeric(format(x_date, "%m"))
+d.tot.km <- data.frame(xdate = x_date, ytotKm=gdata$totKm, years = EYear, months = EMonth)
+
+ggplot(d.tot.km, aes(xdate, ytotKm)) +
+      geom_line(colour="#33ff99", size=0.8) +
+      scale_x_date(labels = date_format("%Y")) +
+      geom_point(size=3, colour="#339966") +
+      facet_grid(. ~ years) +
+      xlab("Date") + 
+      ylab("Total kilometers")
+
 dev.off()
