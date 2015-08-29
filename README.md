@@ -34,3 +34,5 @@ __(gdata.csv file)__
 
 #### Euros by liter for each year
 ![ebyliter](https://raw.githubusercontent.com/nachoad/gasdatarecord/master/imgs/euros_by_liter_trend.png)
+#### Total kilometers driven
+![ebyliter](https://raw.githubusercontent.com/nachoad/gasdatarecord/master/imgs/kms_driven.png)
