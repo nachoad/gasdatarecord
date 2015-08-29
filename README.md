@@ -1,6 +1,11 @@
 # Gas Data Record
 ### A data record of each time I fill up the gasoline of my car
-##### The data I usually note are:
+#### Table of contents
+1. [Hearders of cvs file](https://github.com/nachoad/gasdatarecord#the-data-i-usually-note-are)
+2. [R Stats](https://github.com/nachoad/gasdatarecord#some-r-data-from-this-data)
+3. [Charts](https://github.com/nachoad/gasdatarecord#charts)
+
+#### The data I usually note are:
 
 |Names      | Description                             |
 |-----------|-----------------------------------------|
@@ -11,10 +16,9 @@
 |euros      | Final price of the refuel               |
 |liters     | The number of liters                    |
 |km         | Kilometers done from previous refuel    |
+__(gdata.csv file)__
 
-###### (gdata.csv file)
-
-### Some R data from this data:
+#### Some R data from this data:
 
 | eLiter         |  euros         |    liters     |        km        | 
 |----------------| ---------------|---------------|------------------|
